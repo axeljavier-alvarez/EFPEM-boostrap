@@ -1,0 +1,74 @@
+.imagenusac{
+    max-width: 220px;
+    height: 200px;
+}
+
+.imagenefpem{
+    max-width: 140px;
+    height: 130px;
+    margin-top: 30px;
+    
+}
+
+#navbar{
+    background-color: #77021a;
+    font-size: 20px;
+}
+
+.parrafo1{
+    border-color: black;
+}
+
+.imagenLapiz{
+    height: 200px; 
+    width: 250px;
+    
+}
+
+#seccion3 {
+    display: grid;
+   grid-template-areas: "mision imagen vision";
+
+}
+
+.sectionmision {
+    grid-area: mision;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000;
+    text-align: justify;
+}
+
+.sectionimagen {
+    grid-area: imagen;
+   
+}
+
+
+.sectionvision {
+    grid-area: vision;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    border: 2px solid #000;
+    text-align: justify;
+
+}
+
+footer{
+    background-color: #77021a;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    /* SECCION 3*/
+    #seccion3 {
+        grid-template-areas: "imagen" "mision" "vision";
+        row-gap: 50px;
+     }
+
+}
