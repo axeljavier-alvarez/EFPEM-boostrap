@@ -1,0 +1,172 @@
+.imagenusac{
+    max-width: 220px;
+    height: 200px;
+}
+
+.imagenefpem{
+    max-width: 140px;
+    height: 130px;
+    margin-top: 30px;
+    
+}
+
+#navbar{
+    background-color: #77021a;
+    font-size: 20px;
+}
+
+.grid-container {
+    display: grid;
+    padding: 40px 110px 20px 110px;
+    grid-template-areas: "col11 col22 col33";
+  }
+  .grid-item1 {
+    grid-area: col11;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 15px;
+    text-align: justify;
+    background-color: yellow;
+  }
+
+  .grid-item2 {
+    grid-area: col22;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 15px;
+    text-align: justify;
+    background-color: aquamarine;
+  }
+  .grid-item3 {
+    grid-area: col33;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    font-size: 15px;
+    text-align: justify;
+    background-color: antiquewhite;
+  }
+
+   /* SECCION 5 */ 
+   #seccion5{
+    display: grid;
+    grid-template-areas: "anun1 anun2";
+  }
+
+  /* ANUNCIO 1*/
+  .sec1{
+    width: 50%;
+    height: 400px;
+    grid-area: anun1;
+    margin: auto;
+
+  }
+
+  .celda1 {
+    width: 250px;
+    border: 0px;
+    border-spacing: 0px;
+}
+
+  .anuncio1{
+    width: 100%;
+    height: 400px;
+    margin-bottom: -3px;
+  }
+
+  /* ANUNCIO 2*/
+  .sec2{
+    width: 50%;
+    height: 400px;
+    grid-area: anun2;
+    margin: auto;
+  }
+
+  .celda2 {
+    width: 250px;
+    border: 0px;
+    border-spacing: 0px;
+}
+.anuncio2 {
+
+    width: 100%;
+    height: 400px;
+    margin-bottom: -3px;
+   
+}
+
+/* SECCION 6 */ 
+#seccion6{
+    display: grid;
+    grid-template-areas: "anun3 anun4";
+}
+
+/* ANUNCIO 3*/
+.sec3{
+    width: 50%;
+    height: 400px;
+    grid-area: anun3;
+    margin: auto;
+
+}
+
+  .celda3 {
+    width: 250px;
+    border: 0px;
+    border-spacing: 0px;
+}
+
+  .anuncio3{
+    width: 100%;
+    height: 400px;
+    margin-bottom: -3px;
+  }
+
+  /* ANUNCIO 4 */
+  .sec4{
+    width: 50%;
+    height: 400px;
+    grid-area: anun4;
+    margin: auto;
+
+}
+
+  .celda4 {
+    width: 250px;
+    border: 0px;
+    border-spacing: 0px;
+}
+
+  .anuncio4{
+    width: 100%;
+    height: 400px;
+    margin-bottom: -3px;
+  }
+
+footer{
+    background-color: #77021a;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-areas: "col11" "col22" "col33";
+        row-gap: 50px;
+    }
+
+
+    #seccion5{
+        grid-template-areas: "anun1" "anun2";
+        row-gap: 50px;
+      }
+
+    #seccion6{
+        grid-template-areas: "anun3" "anun4";
+        row-gap: 50px;
+    }
+}

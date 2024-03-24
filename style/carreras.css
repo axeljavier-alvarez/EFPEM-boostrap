@@ -1,0 +1,252 @@
+.imagenusac{
+    max-width: 220px;
+    height: 200px;
+}
+
+.imagenefpem{
+    max-width: 140px;
+    height: 130px;
+    margin-top: 30px;
+    
+}
+
+#navbar{
+    background-color: #77021a;
+    font-size: 20px;
+}
+
+.parrafo1{
+    border-color: black;
+}
+
+.imagenLapiz{
+    height: 200px; 
+    width: 250px;
+    
+}
+
+h2{
+    color: #77021a;
+}
+
+/* PROFESORADOS */
+#seccion3 {
+    display: grid;
+    grid-template-areas: "prof1 prof2";
+
+}
+
+td{
+    border: none;
+}
+.configBoton1{
+    border-radius: 10px 10px 10px 10px;
+    background-color: #77021a;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color: white;
+}
+
+/* TABLA 2 */
+#tabla2 {
+    grid-area: prof1;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+
+}
+
+.celda3 {
+    width: 250px;
+    border: 0px;
+    border-spacing: 0px;
+}
+
+.celda4 {
+    width: 300px;
+    text-align: justify;
+}
+
+.imagencompu {
+
+    width: 95%;
+    height: 300px;
+    margin-bottom: -2px;
+   
+}
+
+/* TABLA 3 */
+#tabla3 {
+    grid-area: prof2;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+
+}
+.celda5 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda6{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagenmate {
+
+    width: 100%;
+    height: 305px;
+    margin-bottom: -2px;
+   
+}
+
+/* LICENCIATURAS */
+/* LICENCIATURAS*/
+
+#seccion5 {
+    display: grid;
+    grid-template-areas: "lic1 lic2";
+}
+
+/* TABLA 4 */
+
+#tabla4{
+    grid-area: lic1;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.celda7 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda8{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagencompu2 {
+
+    width: 95%;
+    height: 330px;
+}
+
+/* TABLA 5 */
+#tabla5{
+    grid-area: lic2;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.celda9 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda10{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagenmate2 {
+
+    width: 95%;
+    height: 330px;
+   
+}
+/* MAESTRIAS */
+/* MAESTRIAS */
+#seccion7 {
+    display: grid;
+    grid-template-areas: "msc1 msc2";
+}
+
+
+
+/*TABLA 6 */
+#tabla6{
+    grid-area: msc1;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.celda11 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda12{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagencompu3 {
+
+    width: 95%;
+    height: 330px;
+}
+
+/* TABLA 7*/
+#tabla7{
+    grid-area: msc2;
+    border-collapse: collapse;
+    margin: auto;
+    width: 70%;
+}
+
+.celda13 {
+    width: 250px;
+    border: 0px;
+  border-spacing: 0px;
+}
+
+.celda14{
+    width: 300px;
+    text-align: justify;
+}
+
+.imagenmate3 {
+
+    width: 95%;
+    height: 300px;
+}
+footer{
+    background-color: #77021a;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    font-size: 20px;
+}
+@media screen and (max-width: 800px) {
+    /* SECCION 3*/
+    #seccion3 {
+        grid-template-areas: "prof1" "prof2";
+        row-gap: 50px;
+    }
+
+    #seccion5{
+        grid-template-areas: "lic1" "lic2";
+        row-gap: 50px;
+    }
+
+    #seccion7{
+        grid-template-areas: "msc1" "msc2";
+        row-gap: 50px;
+    }
+
+}
+
